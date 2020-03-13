@@ -1,0 +1,55 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+API_TOKEN_URL	token.c	/^const char API_TOKEN_URL[] = "http:\/\/openapi.baidu.com\/oauth\/2.0\/token";$/;"	v
+API_TTS_URL	ttsmain.c	/^const char API_TTS_URL[] = "http:\/\/tsn.baidu.com\/text2audio"; \/\/ 可改为https$/;"	v
+BUFFER_ERROR_SIZE	common.c	/^const int BUFFER_ERROR_SIZE = 1024;$/;"	v
+ENABLE_CURL_VERBOSE	common.c	/^const int ENABLE_CURL_VERBOSE = 0;$/;"	v
+ERROR_ASR_CURL	common.h	/^    ERROR_ASR_CURL = 102, \/\/ 识别 curl 错误$/;"	e	enum:__anon1
+ERROR_ASR_FILE_NOT_EXIST	common.h	/^    ERROR_ASR_FILE_NOT_EXIST = 101, \/\/ 本地文件不存在$/;"	e	enum:__anon1
+ERROR_TOKEN_CURL	common.h	/^    ERROR_TOKEN_CURL = 13, \/\/ TOKEN CURL 调用错误$/;"	e	enum:__anon1
+ERROR_TOKEN_PARSE_ACCESS_TOKEN	common.h	/^    ERROR_TOKEN_PARSE_ACCESS_TOKEN = 15,  \/\/ access_token字段在返回结果中不存在$/;"	e	enum:__anon1
+ERROR_TOKEN_PARSE_SCOPE	common.h	/^    ERROR_TOKEN_PARSE_SCOPE = 16, \/\/ 解析scope字段，或者scope不存在$/;"	e	enum:__anon1
+ERROR_TTS_CURL	common.h	/^    ERROR_TTS_CURL = 23$/;"	e	enum:__anon1
+MAX_HEADER_VALUE_LEN	ttscurl.c	/^const int MAX_HEADER_VALUE_LEN = 100;$/;"	v
+MAX_TOKEN_SIZE	token.c	/^const int MAX_TOKEN_SIZE = 100;$/;"	v
+RETURN_CODE	common.h	/^} RETURN_CODE;$/;"	t	typeref:enum:__anon1
+RETURN_ERROR	common.h	/^    RETURN_ERROR = 1, \/\/ 返回错误$/;"	e	enum:__anon1
+RETURN_FAIL	common.h	/^    RETURN_FAIL = 2, \/\/ 返回失败$/;"	e	enum:__anon1
+RETURN_OK	common.h	/^    RETURN_OK = 0, \/\/ 返回正常$/;"	e	enum:__anon1
+SPEECH_C_DEMO_COMMON_H	common.h	6;"	d
+SPEECH_C_DEMO_TOKEN_H	token.h	6;"	d
+SPEECH_C_DEMO_TTSHTTP_H	ttscurl.h	6;"	d
+SPEECH_C_DEMO_TTSMAIN_H	ttsmain.h	6;"	d
+TTS_SCOPE	ttsmain.c	/^const char TTS_SCOPE[] = "audio_tts_post";$/;"	v
+api_key	ttsmain.h	/^    char api_key[40]; \/\/ 填写网页上申请的appkey 如 $apiKey="g8eBUMSokVB1BHGmgxxxxxx"$/;"	m	struct:tts_config
+aue	ttsmain.h	/^	int aue;$/;"	m	struct:tts_config
+cuid	ttsmain.h	/^    char cuid[20];$/;"	m	struct:tts_config
+fill_config	ttsmain.c	/^RETURN_CODE fill_config(struct tts_config *config) {$/;"	f
+format	ttscurl.h	/^	char *format; \/\/ 音频的格式，aue参数设置$/;"	m	struct:http_result
+format	ttsmain.h	/^	char format[4];$/;"	m	struct:tts_config
+fp	ttscurl.h	/^    FILE *fp; \/\/ 保存结果的文件$/;"	m	struct:http_result
+g_demo_error_msg	common.c	/^char g_demo_error_msg[1024] = {0};$/;"	v
+has_error	ttscurl.h	/^    int has_error;$/;"	m	struct:http_result
+header_callback	ttscurl.c	/^size_t header_callback(char *buffer, size_t size, size_t nitems, struct http_result *result) {$/;"	f
+http_result	ttscurl.h	/^struct http_result {$/;"	s
+main	ttsmain.c	/^int main() {$/;"	f
+obtain_json_str	token.c	/^RETURN_CODE obtain_json_str(const char *json, const char *key, char *value, int value_size) {$/;"	f
+parse_token	token.c	/^RETURN_CODE parse_token(const char *response, const char *scope, char *token) {$/;"	f
+per	ttsmain.h	/^    int per;$/;"	m	struct:tts_config
+pit	ttsmain.h	/^    int pit;$/;"	m	struct:tts_config
+run	ttsmain.c	/^RETURN_CODE run() {$/;"	f
+run_tts	ttsmain.c	/^RETURN_CODE run_tts(struct tts_config *config, const char *token) {$/;"	f
+search_header	ttscurl.c	/^static RETURN_CODE search_header(const char *buffer, size_t len, const char *key, char *value) {$/;"	f	file:
+secret_key	ttsmain.h	/^    char secret_key[40]; \/\/ 填写网页上申请的APP SECRET 如 $secretKey="94dc99566550d87f8fa8ece112xxxxx"$/;"	m	struct:tts_config
+spd	ttsmain.h	/^    int spd;$/;"	m	struct:tts_config
+speech_get_token	token.c	/^speech_get_token(const char *api_key, const char *secret_key, const char *scope, char *token) {$/;"	f
+text	ttsmain.h	/^    char text[512 * 3 + 1];  \/\/ 需要合成的文本  最多512个汉字$/;"	m	struct:tts_config
+text_len	ttsmain.h	/^    int text_len; \/\/ 文本的长度$/;"	m	struct:tts_config
+tts_config	ttsmain.h	/^struct tts_config {$/;"	s
+vol	ttsmain.h	/^    int vol;$/;"	m	struct:tts_config
+writefunc	common.c	/^size_t writefunc(void *ptr, size_t size, size_t nmemb, char **result) {$/;"	f
+writefunc_data	ttscurl.c	/^size_t writefunc_data(void *ptr, size_t size, size_t nmemb, struct http_result *result) {$/;"	f

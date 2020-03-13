@@ -1,0 +1,168 @@
+============================================================
+Time  2020/03/10 11:14:10 227 
+============================================================
+[2020/03/10 11:14:10 227] ivw_local  1342 os_type is:  Linux  
+[2020/03/10 11:14:10 227] ivw_local  1351 ivw loaded!  
+[2020/03/10 11:14:10 227] ivw_local  1353 1001.60.1437  
+[2020/03/10 11:14:10 228] ivw_local  1286 SYS_MSG_REGCB  msp_status_cb  func(b1650730) 
+[2020/03/10 11:14:10 228] ivw_local  1376 last gc at  1583810050  
+[2020/03/10 11:14:10 228] ivw_local  1097 IVW_LOCAL_INIT_CHECK  
+[2020/03/10 11:14:10 228] ivw_local  1103 ivw_res_path:  fo|res/ivw/wakeupresource.jet  
+[2020/03/10 11:14:10 228] ivw_local  732  lgi:  nil  nil  
+[2020/03/10 11:14:10 228] ivw_local  736  fo|res/ivw/wakeupresource.jet  1  
+[2020/03/10 11:14:10 228] ivw_local  527  err  0  
+[2020/03/10 11:14:10 228] ivw_local  528  res_ver  3  
+[2020/03/10 11:14:10 228] ivw_local  529  res_appid_md5    
+[2020/03/10 11:14:10 228] ivw_local  530  res_id    
+[2020/03/10 11:14:10 228] ivw_local  531  |%fsoniah%=|%fwwnc%=%2b34?b0f%+%ubtnc%=%ea6611d2>d?1>b>43fd?63ddce2ab>b1%+%ubts~wb%=%c%z+%nqpphuc%=|%irj%=6+%phuct%=\|%nc%=7+%sbs%=%in5ofh4orf5vni`6%+%soubtohkc%=6327zZz+%ubttn}b%=>?05?7+%ubtsnjb%=62?63?2?75+%ubtqbu%=%q1777%z  
+[2020/03/10 11:14:10 228] ivw_local  539  speech_plus_setting  0  
+[2020/03/10 11:14:10 229] ivw_local  591  ni2hao3hua2qing1  0  1450  
+[2020/03/10 11:14:10 229] ivw_local  623  d  
+[2020/03/10 11:14:10 229] ivw_local  652  now expires:  1583810050  nil  
+[2020/03/10 11:14:10 229] auth       86   ivw  app  nil  bf1166c59c869e934ac814ccdb5fe9e6  {"ivw":{"ver":"2","bus":{"expire_date":1589261691,"forbid":"0","nlimit":10},"res":{"md5":"bf1166c59c869e934ac814ccdb5fe9e6","blist":{}}}}  
+[2020/03/10 11:14:10 229] auth       309  nil  
+[2020/03/10 11:14:10 229] auth       318  auth ivw_res_id  bf1166c59c869e934ac814ccdb5fe9e6  
+[2020/03/10 11:14:10 229] auth       332  auth get ivw_res_id  bf1166c59c869e934ac814ccdb5fe9e6  
+[2020/03/10 11:14:10 229] auth       420  nil  
+[2020/03/10 11:14:10 229] ivw_local  479  app auth  
+[2020/03/10 11:14:10 229] auth       687  app  nil  nil  bf1166c59c869e934ac814ccdb5fe9e6  
+[2020/03/10 11:14:10 229] auth       744  ath rquest  {"authorize":[{"ver":"2.1.1","busin":"ivw"}]}  
+[2020/03/10 11:14:10 235] config     91   select default  
+[2020/03/10 11:14:10 235] config     113  use general cloud  
+[2020/03/10 11:14:10 236] transport  645  paramkvsport is   nil  
+[2020/03/10 11:14:10 236] transport  657  ns_enable=  1  
+[2020/03/10 11:14:10 236] transport  659  2017-08--24 is_ns_need_close =   nil  
+[2020/03/10 11:14:10 236] transport  665  net.nettype=  unknown  
+[2020/03/10 11:14:10 236] transport  675  url.full=  nil  
+[2020/03/10 11:14:10 236] transport  680  server_url_host=, server_url_port=, server_url_path=  open.xf-yun.com  nil  /msp.do  
+[2020/03/10 11:14:10 236] transport  907  net type:  unknown  
+[2020/03/10 11:14:10 236] transport  908  net operator:  def  
+[2020/03/10 11:14:10 236] transport  909  use proxy:  false  
+[2020/03/10 11:14:10 236] auth       799  not login!  
+[2020/03/10 11:14:10 236] auth       636  [session] send auth request  
+[2020/03/10 11:14:10 236] transport  1105 session.domain=  open.xf-yun.com  
+[2020/03/10 11:14:10 236] transport  1106 url.host=  open.xf-yun.com  
+[2020/03/10 11:14:10 236] transport  1083 NAMESERVER START  
+[2020/03/10 11:14:10 236] transport  1086 name =   ath  
+[2020/03/10 11:14:10 236] ns         634  ntt=  unknown  
+[2020/03/10 11:14:10 236] transport  1089 trans,ns_inprog =  0  
+[2020/03/10 11:14:10 236] ns         582  name server start  
+[2020/03/10 11:14:10 236] ns         588  ns_sub =   ath  
+[2020/03/10 11:14:10 236] ns         596  ns_host =   open.xf-yun.com  
+[2020/03/10 11:14:10 236] ns         475  ns_host=  open.xf-yun.com  
+[2020/03/10 11:14:10 236] ns         555  net_type =  standard  
+[2020/03/10 11:14:10 236] ns         556  cmwapascmnet =  
+[2020/03/10 11:14:10 236] ns         557  uniwapasuninet =  
+[2020/03/10 11:14:10 236] ns         558  ctwapasctnet =  
+[2020/03/10 11:14:10 236] ns         576  host=  hdns.xf-yun.com  
+[2020/03/10 11:14:10 236] network    263  gethostbyname  hdns.xf-yun.com  ns1  
+[2020/03/10 11:14:10 239] auth       643  0  
+[2020/03/10 11:14:10 240] auth       606  lver:  nil  
+[2020/03/10 11:14:10 240] auth       611  cfg_ver:  nil  
+[2020/03/10 11:14:10 240] transport  1860 transport_obj.send | in  
+[2020/03/10 11:14:10 240] transport  1866 self.msg_flag_q  table(b16391f8) 
+[2020/03/10 11:14:10 240] transport  1867 self.msg_q  table(b1637eb8) 
+[2020/03/10 11:14:10 240] transport  1799 transport_obj.try2send | in  
+[2020/03/10 11:14:10 240] transport  1800 self.soc  nil  
+[2020/03/10 11:14:10 240] transport  1801 self.connected  false  
+[2020/03/10 11:14:10 240] transport  1802 self.latesterr  0  
+[2020/03/10 11:14:10 240] transport  1873 transport_obj.send | out  
+[2020/03/10 11:14:10 240] ivw_local  703  forbid_ivw =  0  
+[2020/03/10 11:14:10 240] ivw_local  1136 0  res/ivw/wakeupresource.jet  nil  nil  233  0  0  0:1450;  0:ni2hao3hua2qing1;  
+[2020/03/10 11:14:10 249] network    245  dns resp  0  ns1  
+[2020/03/10 11:14:10 249] ns         422  ns dns ok  42.62.116.18  
+[2020/03/10 11:14:10 250] ns         202  iplist not avail  
+[2020/03/10 11:14:10 257] ns         429  is_voicecloud_ip=  0  
+[2020/03/10 11:14:10 257] ns         436  ip_is_expected=  true  
+[2020/03/10 11:14:10 257] ns         444  ip_is_expected=  true  
+[2020/03/10 11:14:10 257] network    445  gethttpresp2  42.62.116.18  80  ns2  
+[2020/03/10 11:14:10 257] network    465  prot_type  tcp  
+[2020/03/10 11:14:10 260] transport  194  [dns] [1] response 58.67.223.138  
+[2020/03/10 11:14:10 260] transport  202  58  67  223  138  
+[2020/03/10 11:14:10 260] transport  204  ipv =  v4  
+[2020/03/10 11:14:10 260] transport  208  dns ip is v4  
+[2020/03/10 11:14:10 260] transport  130  iplist not avail  
+[2020/03/10 11:14:10 260] transport  247  no iplist now  
+[2020/03/10 11:14:10 260] network    95   iptoenv ,  ipcache  open.xf-yun.com  def  58.67.223.138  
+[2020/03/10 11:14:10 261] transport  291  dns cb start conn  
+[2020/03/10 11:14:10 261] transport  1304 [soc] connect   58.67.223.138  1028  
+[2020/03/10 11:14:10 261] transport  1316 mspsoc.open,prot_type=  tcp  
+[2020/03/10 11:14:10 269] network    350  connected  ns2  
+[2020/03/10 11:14:10 270] network    353  send ok  268  ns2  
+[2020/03/10 11:14:10 270] ivw_local  1334 IVW_LOCAL_INSTSID param0 param1  civw1PdHHBHxeiNaZdp8aatHnmn80I8l+8  udata(b76fa140) 
+[2020/03/10 11:14:10 270] ivw_local  1376 last gc at  1583810050  
+[2020/03/10 11:14:10 286] network    362  readable  ns2  
+[2020/03/10 11:14:10 286] network    366  HTTP/1.1 200 OK
+Date: Tue, 10 Mar 2020 03:14:10 GMT
+Content-Type: application/json
+Content-Length: 307
+Connection: keep-alive
+Server: iflytek/hdns
+
+{"dns":[{"host":"open.xf-yun.com","sip":[{"svc":"ath","ips":[{"ip":"42.62.42.18","port":80,"idc":"dx"},{"ip":"42.62.116.18","port":80,"idc":"dx"}],"ttl":6000,"compel":0}]}],"default":[{"host":"open.xf-yun.com","sip":[{"svc":"ath","ips":[{"ip":"42.62.116.18","port":80,"idc":"dx"}],"ttl":6000,"compel":0}]}]}  
+[2020/03/10 11:14:10 292] ns         253  name server http resp  0  
+[2020/03/10 11:14:10 292] ns         266  ns response OK for this time!  
+[2020/03/10 11:14:10 292] ns         277  from_server=  iflytek/hdns  
+[2020/03/10 11:14:10 293] ns         360  compel :  0  
+[2020/03/10 11:14:10 293] transport  1063 ns_ip =   42.62.42.18  
+[2020/03/10 11:14:10 293] transport  1064 ip_type =  assigned_athopen.xf-yun.com_host  
+[2020/03/10 11:14:10 293] ns         670  no data in ns_q  
+[2020/03/10 11:14:10 293] ns         671  conti_ns,ns_inprog =   1  
+[2020/03/10 11:14:10 312] transport  473  [soc] [1] connected  
+[2020/03/10 11:14:10 312] transport  1799 transport_obj.try2send | in  
+[2020/03/10 11:14:10 313] transport  1800 self.soc  udata(b1618324) 
+[2020/03/10 11:14:10 313] transport  1801 self.connected  true  
+[2020/03/10 11:14:10 313] transport  1802 self.latesterr  0  
+[2020/03/10 11:14:10 313] transport  1819 transport:try2send,#msg_q=  1  
+[2020/03/10 11:14:10 313] transport  1359 build http request.  
+[2020/03/10 11:14:10 313] transport  1476 POST /msp.do HTTP/1.1
+X-Sub: auth
+X-Par: ver=MSSP+0%2E9&sub=auth&cmd=rath&key=08mJ0Q8LNUeJw=
+Host: open.xf-yun.com
+CT: multipart/mixed;boundary=--
+CL: 357
+
+----
+Content-Length:48
+Content-Type:text/appinfo
+Content-Encoding:gzip
+
+36
+xœËN­´5MIJ±L¶H³L3²´47JL3N1L4OLJµ4NJKL4  
+[2020/03/10 11:14:10 314] transport  1819 transport:try2send,#msg_q=  0  
+[2020/03/10 11:14:10 314] transport  482  [soc] [1] send ok  520  
+[2020/03/10 11:14:10 314] transport  1799 transport_obj.try2send | in  
+[2020/03/10 11:14:10 314] transport  1800 self.soc  udata(b1618324) 
+[2020/03/10 11:14:10 314] transport  1801 self.connected  true  
+[2020/03/10 11:14:10 314] transport  1802 self.latesterr  0  
+[2020/03/10 11:14:10 314] transport  1819 transport:try2send,#msg_q=  0  
+[2020/03/10 11:14:10 380] transport  494  [soc] [1] readable  
+[2020/03/10 11:14:10 380] transport  1767 HTTP/1.1 200 OK
+Content-Length: 125
+X-Req-Date: 2020/03/10 11:14:10 502
+X-Par: ver=MSSP+0%2E9&ret=0&key=09tVqFLv7ooQ1svrnx1fZvs/CSs7OF7iSYYQxOaIqlL1DJJ49MdjRXeQ==
+CE: gzip
+CT: binary/authinfo
+CL: 125
+Content-Length: 125
+X-Res-Date: 2020/03/10 11:14:10 518
+
+137
+xœA
+Ã0ÿ¢³QËŸ)±-ƒ i‹“¦“¿WéwgØz| v8¤A„¤÷vò}i“{™wˆ>ðHHŒê³%-?]u7`84ù›kñ¶¦ŠH”=ç@,|›æpÊ¹$_……®§E7sûiùå²(á  
+[2020/03/10 11:14:10 380] transport  1494 a_complete_httpmessage  200  
+[2020/03/10 11:14:10 380] transport  1604 is_update  true  
+[2020/03/10 11:14:10 380] transport  1608 port updated  1028  
+[2020/03/10 11:14:10 380] transport  1610 switch  1028  
+[2020/03/10 11:14:10 380] auth       455  [trans] [id = table: 0xb163bdb0;;;=0===;auth] readable  
+[2020/03/10 11:14:10 381] network    90   ipfromenv ,  ipcache  open.xf-yun.com  def  58.67.223.138  
+[2020/03/10 11:14:10 381] transport  972  iplist not avail  
+[2020/03/10 11:14:10 381] transport  1332 [soc] disconnect   
+[2020/03/10 11:14:10 385] transport  991  transport clean  
+[2020/03/10 11:14:10 385] auth       491  auth_json=  udata(b1629bf4) 
+[2020/03/10 11:14:10 385] auth       492  tostring(auth_json)=  {"ivw":{"ver":"2","bus":{"expire_date":1589261691,"forbid":"0","nlimit":10},"res":{"md5":"bf1166c59c869e934ac814ccdb5fe9e6","blist":{}}}}  
+[2020/03/10 11:14:10 385] auth       86   ivw  app  nil  bf1166c59c869e934ac814ccdb5fe9e6  {"ivw":{"ver":"2","bus":{"expire_date":1589261691,"forbid":"0","nlimit":10},"res":{"md5":"bf1166c59c869e934ac814ccdb5fe9e6","blist":{}}}}  
+[2020/03/10 11:14:10 385] auth       309  nil  
+[2020/03/10 11:14:10 385] auth       318  auth ivw_res_id  bf1166c59c869e934ac814ccdb5fe9e6  
+[2020/03/10 11:14:10 385] auth       332  auth get ivw_res_id  bf1166c59c869e934ac814ccdb5fe9e6  
+[2020/03/10 11:14:10 386] auth       512  auth ok!  
